@@ -1,0 +1,36 @@
+.dashboard .news .post-item {
+    margin-top: 15px; /* Adds space between adjacent news items */
+}
+
+/* This will handle space if there's no direct .post-items container */
+.dashboard .news .post-item:first-of-type {
+    margin-top: 0; /* Remove margin from the first item */
+}
+
+.dashboard .news img {
+    width: 80px; /* Sets image width */
+    float: left; /* Floats image to the left */
+    border-radius: 5px; /* Rounds image corners */
+}
+
+.dashboard .news h4 {
+    font-size: 15px; /* Sets font size for headings */
+    margin-left: 95px; /* Adds space to the left of the heading */
+    font-weight: bold; /* Makes heading bold */
+    margin-bottom: 5px; /* Adds space below the heading */
+}
+
+.dashboard .news h4 a {
+    color: #012970; /* Sets link color */
+    transition: color 0.3s; /* Adds smooth color transition on hover */
+}
+
+.dashboard .news h4 a:hover {
+    color: #4154f1; /* Changes link color on hover */
+}
+
+.dashboard .news p {
+    font-size: 14px; /* Sets font size for paragraphs */
+    color: #4154f1; /* Sets text color */
+    margin-top: 0; /* Ensures no extra margin at the top */
+}
